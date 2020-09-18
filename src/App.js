@@ -12,20 +12,20 @@ function App() {
 		<Router>
 			<div className='app'>
 				<Switch>
-					<Route path='/checkout'>
+					<Route exact path='/checkout'>
 						<Header />
 						<Cart />
 					</Route>
-					<Route path='/home'>
+					<Route exact path='/home'>
 						<h1>Home</h1>
 					</Route>
-					<Route path='/login'>
+					<Route exact path='/login'>
 						<Login />
 					</Route>
-					<Route path='/Register'>
+					<Route exact path='/Register'>
 						<Register />
 					</Route>
-					<Route path='/'>
+					<Route exact path='/'>
 						<Header />
 						<Home />
 					</Route>
