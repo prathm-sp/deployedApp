@@ -5,12 +5,9 @@ import Product from './Product.js';
 function Home(){
 	return(
 		<div className="home">
-			<img 
-				 className="home_image"
-				 src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/AMAZON-1200x537.png"
-				 alt=""
-			 />
-
+			 <div className="home_image">
+			 	<p>Soal <br /><span>ECommerce</span></p>
+			 </div>
 			 <div className="home_row">
 			 	<Product
 				 	id="1234342424"
@@ -38,7 +35,7 @@ function Home(){
 			 	/>
 			 	<Product
 				 	id="1234342424"
-				 	title = "Sony Camera "
+				 	title = "Sony Smart Camera With Different Lens"
 				 	 price = {14000}
 				 	rating = {4}
 				 	image = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSv8ToexTe3NOUeewpoXUJg78guPXhjY-oxTA&usqp=CAU"

@@ -13,7 +13,7 @@ function footer(){
 						<a href="/About">About Us</a>
 						<a href="/About">Careers</a>
 						<a href="/About">Press Release</a>
-						<a href="/About">Amazon</a>
+						<a href="/About">Soal</a>
 						<a href="/About">Gift a Smile</a>
 					</div>
 					<div className='footer_body1'>
@@ -24,21 +24,21 @@ function footer(){
 					</div>
 					<div className='footer_body1'>
 						<h4>Make Money with us</h4>
-						<a href="/About">Sell on Amazon</a>
-						<a href="/About">Sell Under Amazon Accelerator</a>
+						<a href="/About">Sell on Soal</a>
+						<a href="/About">Sell Under Soal Accelerator</a>
 						<a href="/About">Because on Affillate</a>
-						<a href="/About">Fulfilment by Amazon</a>
+						<a href="/About">Fulfilment by Soal</a>
 						<a href="/About">Advertise Your Products</a>
 						<a href="/About">Advertise Pay on Merchants</a>
 					</div>
 					<div className='footer_body1'>
 						<h4>Let Us Help You</h4>
-						<a href="/About">Covide-19 and Amazon</a>
+						<a href="/About">Covide-19 and Soal</a>
 						<a href="/About">Your Account</a>
 						<a href="/About">Return Center</a>
 						<a href="/About">100% Purchase Protection</a>
-						<a href="/About">Amazon App Download</a>
-						<a href="/About">Amazon Assiabt Download</a>
+						<a href="/About">soal App Download</a>
+						<a href="/About">Soal Assiabt Download</a>
 						<a href="/About">Help</a>
 					</div>
 				</div>

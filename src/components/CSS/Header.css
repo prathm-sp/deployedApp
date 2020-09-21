@@ -11,10 +11,12 @@
 	z-index: 100;
 }
 .header_logo{
-	width: 100px;
+	width: 40px;
+	border-radius: 20px;
 	margin-right: 20px;
 	margin-left: 20px;
-	margin-top: 18px;
+	margin-top: 10px;
+
 }
 .header_Search{
 	display: flex;
