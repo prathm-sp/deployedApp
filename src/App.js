@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
+import Footer from './components/footer';
 import Cart from './components/Cart';
 import Login from './components/Form/login'
 import Register from './components/Form/Register'
@@ -28,6 +29,7 @@ function App() {
 					<Route exact path='/'>
 						<Header />
 						<Home />
+						<Footer />
 					</Route>
 				</Switch>
 			</div>

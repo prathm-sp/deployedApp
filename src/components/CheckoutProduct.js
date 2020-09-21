@@ -3,7 +3,7 @@ import './CSS/Cart.css'
 
 export default function CheckoutProduct({ id, title, rating, price, image }) {
     function removeFromBasket(){
-
+        
     }
 
     return (
