@@ -1,0 +1,37 @@
+#idImage{
+    display: inline-block;
+    width: 450px;
+}
+#imageDiv{
+    display: inline-block;
+}
+#idRatings{
+    font-size: 20px;
+    position: relative;
+    top: 9px;
+}
+
+#points{
+    position: relative;
+    top: 84px;
+    font-size: 25px;
+}
+
+
+#idPrice{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+#price{
+    position: relative;
+    left: -9px;
+    color:brown;
+}
+
+#idDetails{
+    display: inline-block;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 500;
+}

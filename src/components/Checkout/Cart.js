@@ -1,12 +1,12 @@
 import React from 'react'
-import { useStateValue } from '../StateProvider'
-import './CSS/Cart.css'
+import { useStateValue } from '../../StateProvider'
+import './Cart.css'
 import CheckoutProduct from './CheckoutProduct'
 
 export default function Cart() {
     const [{ basket }] = useStateValue();
 
-    return (
+     return (
         <div>
             <img className="cart-img" src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"></img>
             {basket?.length === 0?(
