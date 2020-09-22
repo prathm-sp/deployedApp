@@ -6,7 +6,7 @@ function Home(){
 	return(
 		<div className="home">
 			 <div className="home_image">
-			 	<p>Soal <br /><span>ECommerce</span></p>
+			 	<p>SOAL <br /><span>ECOMMERCE !</span></p>
 			 </div>
 			 <div className="home_row">
 			 	<Product

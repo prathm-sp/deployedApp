@@ -28,6 +28,9 @@ function Navbar() {
 						</Link>
 					</li>
 					<p className="top-header">SHOP BY CATEGORY</p>
+
+					{/*Fetching all the data from SidebarData by using map*/}
+
 					{SidebarData.map((items, index) => {
 						return(
 							<li key={index} className={items.cName}>
@@ -42,6 +45,9 @@ function Navbar() {
 					})}
 					<div className="border">
 					</div>
+
+					{/*Fetching all the data from NextSidebarData by using map*/}
+
 					{NextSidebarData.map((items, index) => {
 						return(
 							<li key={index} className={items.cName}>
@@ -58,7 +64,7 @@ function Navbar() {
 					</div>
 					<p className="bottom-header">HELP & SETTINGS</p>
 					<div className="footer">
-						<p><Link className="link" to='/'>Your Account</Link></p>
+						<p><Link className="link" to='/checkout'>Your Account</Link></p>
 						<p><Link className="link" to='/'>Customer Service</Link></p>
 						<p><Link className="link" to='/Register'>Sign In</Link></p>
 					</div>
