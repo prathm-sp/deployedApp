@@ -37,5 +37,53 @@ export const NextSidebarData = [
 		path:'/',
 		icon: <IoIcons.IoIosArrowForward />,
 		cName: 'nav-text'
-	}
+	},
+	{
+		title:'Sports, Fitness, Bags, Luggage',
+		path:'/',
+		icon: <IoIcons.IoIosArrowForward />,
+		cName: 'nav-text'
+	},
+	{
+		title:'Toys, Baby, Products, kid Fashion',
+		path:'/',
+		icon: <IoIcons.IoIosArrowForward />,
+		cName: 'nav-text'
+	},
+	{
+		title:'Car, Motorbike, industrial',
+		path:'/',
+		icon: <IoIcons.IoIosArrowForward />,
+		cName: 'nav-text'
+	},
+	{
+		title:'Books',
+		path:'/',
+		icon: <IoIcons.IoIosArrowForward />,
+		cName: 'nav-text'
+	},
+	{
+		title:'Movies, Music & Video Games',
+		path:'/',
+		icon: <IoIcons.IoIosArrowForward />,
+		cName: 'nav-text'
+	},
+	{
+		title:'Gift Cards & Video Games',
+		path:'/',
+		icon: <IoIcons.IoIosArrowForward />,
+		cName: 'nav-text'
+	},
+	{
+		title:'Fight Tickets',
+		path:'/',
+		icon: <IoIcons.IoIosArrowForward />,
+		cName: 'nav-text'
+	},
+	{
+		title:'Full Store Directory',
+		path:'/',
+		icon: <IoIcons.IoIosArrowForward />,
+		cName: 'nav-text'
+	},
 ]

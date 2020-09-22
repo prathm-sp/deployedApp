@@ -39,7 +39,7 @@ const addToBasket = () => {
 				</div>
 			</div>
 			<img src={image} alt="" /><br />
-			<Link to="/checkout">
+			<Link to = "/checkout">
                 {/* <img className="amazon-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1280px-Amazon_logo.svg.png" /> */}
 				<button onClick={addToBasket}>Add to Basket</button>
 			</Link>

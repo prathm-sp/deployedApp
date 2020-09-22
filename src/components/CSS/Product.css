@@ -28,10 +28,12 @@
 	color: solid black;
 	padding: 5px;
 }
+
 .product_info{
 	height: 100px;
 	margin-bottom: 15px;
 }
+
 .product_price{
 	margin-top: 5px;
 }

@@ -19,18 +19,19 @@ function Navbar() {
 					<FaIcons.FaBars onClick={showSidebar}/>
 				</Link>
 		</div>
-		<IconContext.Provider value={{color: 'black'}} > 
+		<IconContext.Provider value={{color: '#787878'}} > 
 			<nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
 				<ul className="nav-menu-items" onClick={showSidebar}>
 					<li className="navbar-toggle">
 						<Link to="#" className="menu-bars">
-							<AiIcons.AiOutlineClose />
+							<AiIcons.AiOutlineClose className="cross"/>
 						</Link>
 					</li>
+					<p className="top-header">SHOP BY CATEGORY</p>
 					{SidebarData.map((items, index) => {
 						return(
 							<li key={index} className={items.cName}>
-								<Link to="{item.path}">
+								<Link to={items.path}>
 									<span>{items.title}</span>
 									<div className="icons">
 										{items.icon}
@@ -44,7 +45,7 @@ function Navbar() {
 					{NextSidebarData.map((items, index) => {
 						return(
 							<li key={index} className={items.cName}>
-								<Link to='{items.path}'>
+								<Link to={items.path}>
 									<span>{items.title}</span>
 									<div className="icons">
 										{items.icon}
@@ -53,6 +54,14 @@ function Navbar() {
 							</li>
 						)
 					})}
+					<div className="border">
+					</div>
+					<p className="bottom-header">HELP & SETTINGS</p>
+					<div className="footer">
+						<p><Link className="link" to='/'>Your Account</Link></p>
+						<p><Link className="link" to='/'>Customer Service</Link></p>
+						<p><Link className="link" to='/Register'>Sign In</Link></p>
+					</div>
 				</ul>
 			</nav>
 			</IconContext.Provider>

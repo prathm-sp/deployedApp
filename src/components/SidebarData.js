@@ -1,15 +1,8 @@
 import React from 'react';
-import * as FaIcons from "react-icons/fa";
-import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 
+{/* Creating an array of object*/}
 export const SidebarData = [
-	{
-		title: 'SHOP BY CATEGORY',
-		path:'/',
-		icon:'',
-		cName:'nav-text'
-	},
 	{
 		title:'Echo & Alexa',
 		path:'/',
