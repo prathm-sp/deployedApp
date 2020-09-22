@@ -1,47 +1,39 @@
 import React from 'react';
-import * as FaIcons from "react-icons/fa";
-import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 
-export const SidebarData = [
+export const NextSidebarData = [
 	{
-		title: 'SHOP BY CATEGORY',
-		path:'/',
-		icon:'',
-		cName:'nav-text'
+		title:'Mobiles, Computers',
+		path:'/checkout',
+		icon: <IoIcons.IoIosArrowForward />,
+		cName: 'nav-text'
 	},
 	{
-		title:'Echo & Alexa',
+		title:'Tv, Appliances, Electronic',
 		path:'/',
 		icon: <IoIcons.IoIosArrowForward />,
 		cName: 'nav-text'
 	},
 	{
-		title:'Fire TV Stick',
-		path:'/',
-		icon: <IoIcons.IoIosArrowForward />,
-		cName: 'nav-text'
-	},
-	{
-		title:'Kindle E-Readers & eBooks',
+		title:'Mens Fashion',
 		path:'/',
 		icon:<IoIcons.IoIosArrowForward />,
 		cName: 'nav-text'
 	},
 	{
-		title:'Audible Audiobooks',
+		title:'Women Fashion',
 		path:'/',
 		icon: <IoIcons.IoIosArrowForward />,
 		cName: 'nav-text'
 	},
 	{
-		title:'Amazon Prime Video',
+		title:'Home, Kitchen, Pets',
 		path:'/',
 		icon: <IoIcons.IoIosArrowForward />,
 		cName: 'nav-text'
 	},
 	{
-		title:'Amazon Prime Music',
+		title:'Beauty, Healthy, Grocerry',
 		path:'/',
 		icon: <IoIcons.IoIosArrowForward />,
 		cName: 'nav-text'

@@ -5,13 +5,13 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import {SidebarData} from "./SidebarData";
 import { IconContext } from 'react-icons';
+import {NextSidebarData} from "./NextSidebarData";
 
 function Navbar() {
 	const [sidebar, setSidebar] = useState(false);
 	{/* Using a Hooks*/}
 
 	const showSidebar = () => setSidebar(!sidebar);
-
 	return(
 		<>
 		<div className="navbar">
@@ -41,6 +41,18 @@ function Navbar() {
 					})}
 					<div className="border">
 					</div>
+					{NextSidebarData.map((items, index) => {
+						return(
+							<li key={index} className={items.cName}>
+								<Link to='{items.path}'>
+									<span>{items.title}</span>
+									<div className="icons">
+										{items.icon}
+									</div>
+								</Link>
+							</li>
+						)
+					})}
 				</ul>
 			</nav>
 			</IconContext.Provider>
