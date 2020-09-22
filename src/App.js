@@ -34,6 +34,9 @@ function App() {
 					<Route exact path='/login'>
 						<Login />
 					</Route>
+					<Route exact path='/Register'>
+						<Register />
+					</Route>
 					<Route path={'ds/:', productDetails.id} exact>
 						<Productdetails />
 					</Route>
