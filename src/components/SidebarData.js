@@ -5,27 +5,51 @@ import * as IoIcons from "react-icons/io";
 
 export const SidebarData = [
 	{
-		title:'Home',
+		title: 'SHOP BY CATEGORY',
 		path:'/',
-		icon: <AiIcons.AiFillHome />,
-		cName: 'nav-text'
+		icon:'',
+		cName:'nav-text'
 	},
 	{
-		title:'Reports',
+		title:'Echo & Alexa',
 		path:'/',
 		icon: <IoIcons.IoIosArrowForward />,
 		cName: 'nav-text'
 	},
 	{
-		title:'Products',
+		title:'Fire TV Stick',
 		path:'/',
-		icon: <FaIcons.FaCartPlus />,
+		icon: <IoIcons.IoIosArrowForward />,
 		cName: 'nav-text'
 	},
 	{
-		title:'Team',
+		title:'Kindle E-Readers & eBooks',
 		path:'/',
-		icon: <IoIcons.IoMdPeople />,
+		icon:<IoIcons.IoIosArrowForward />,
+		cName: 'nav-text'
+	},
+	{
+		title:'Audible Audiobooks',
+		path:'/',
+		icon: <IoIcons.IoIosArrowForward />,
+		cName: 'nav-text'
+	},
+	{
+		title:'Amazon Prime Video',
+		path:'/',
+		icon: <IoIcons.IoIosArrowForward />,
+		cName: 'nav-text'
+	},
+	{
+		title:'Amazon Prime Music',
+		path:'/',
+		icon: <IoIcons.IoIosArrowForward />,
+		cName: 'nav-text'
+	},
+	{
+		title:'Mobiles, Computers',
+		path:'/',
+		icon: <IoIcons.IoIosArrowForward />,
 		cName: 'nav-text'
 	},
 ]
