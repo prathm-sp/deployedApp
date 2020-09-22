@@ -8,7 +8,11 @@
 .menu-bars{
 	margin-left: 1rem;
 	font-size: 1.5rem;
+	color: white;
 	background: none;
+}
+.slide{
+	color: white;
 }
 .nav-menu{
 	/*background-color: #060b26;*/
@@ -47,9 +51,6 @@
 	padding-top: 12px;
 	/*padding: 0 16px;*/
 	border-radius: 4px;
-}
-.nav-text a:hover{
-	background-color: #1a83ff;
 }
 .nav-menu-items{
 	width: 100%;
