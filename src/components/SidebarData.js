@@ -52,4 +52,16 @@ export const SidebarData = [
 		icon: <IoIcons.IoIosArrowForward />,
 		cName: 'nav-text'
 	},
+	{
+		title:'Mobiles, Computers',
+		path:'/',
+		icon: <IoIcons.IoIosArrowForward />,
+		cName: 'nav-text'
+	},
+	{
+		title:'Mobiles, Computers',
+		path:'/',
+		icon: <IoIcons.IoIosArrowForward />,
+		cName: 'nav-text'
+	},
 ]

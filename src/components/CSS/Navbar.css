@@ -17,6 +17,7 @@
 .nav-menu{
 	background-color: white;
 	width: 400px;
+	overflow: scroll;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -72,5 +73,5 @@ span{
 }
 .border{
 	border-bottom: 1px solid black;
-	width: 150px;
+	width: 320px;
 }
