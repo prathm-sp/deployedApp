@@ -8,7 +8,7 @@ import Register from './components/Form/Register'
 import { useStateValue } from './StateProvider'
 import Productdetails from './components/Products/ProductDetails'
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
 
@@ -16,16 +16,14 @@ function App() {
 
 
 	return (
-		<Router>
+		<BrowserRouter>
+			<Header />
 			<div className='app'>
 				<Switch>
 					<Route exact path='/'>
-						<Header />
 						<Home />
-						<Footer />
 					</Route>
 					<Route exact path='/checkout'>
-						<Header />
 						<Cart />
 					</Route>
 					<Route exact path='/home'>
@@ -41,8 +39,9 @@ function App() {
 						<Productdetails />
 					</Route>
 				</Switch>
+				<Footer />
 			</div>
-		</Router>
+		</BrowserRouter>
 	);
 };
 
