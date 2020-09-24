@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/github.io/prathm-sp.github.io/static/css/main.4de80cbb.chunk.css",
-    "main.js": "/github.io/prathm-sp.github.io/static/js/main.7a8df35b.chunk.js",
-    "main.js.map": "/github.io/prathm-sp.github.io/static/js/main.7a8df35b.chunk.js.map",
-    "runtime-main.js": "/github.io/prathm-sp.github.io/static/js/runtime-main.ddc39f31.js",
-    "runtime-main.js.map": "/github.io/prathm-sp.github.io/static/js/runtime-main.ddc39f31.js.map",
-    "static/js/2.96201d7e.chunk.js": "/github.io/prathm-sp.github.io/static/js/2.96201d7e.chunk.js",
-    "static/js/2.96201d7e.chunk.js.map": "/github.io/prathm-sp.github.io/static/js/2.96201d7e.chunk.js.map",
-    "index.html": "/github.io/prathm-sp.github.io/index.html",
-    "precache-manifest.4666cafffae5d5f99806c866ee802928.js": "/github.io/prathm-sp.github.io/precache-manifest.4666cafffae5d5f99806c866ee802928.js",
-    "service-worker.js": "/github.io/prathm-sp.github.io/service-worker.js",
-    "static/css/main.4de80cbb.chunk.css.map": "/github.io/prathm-sp.github.io/static/css/main.4de80cbb.chunk.css.map",
-    "static/js/2.96201d7e.chunk.js.LICENSE.txt": "/github.io/prathm-sp.github.io/static/js/2.96201d7e.chunk.js.LICENSE.txt"
+    "main.css": "/deployedApp/static/css/main.4de80cbb.chunk.css",
+    "main.js": "/deployedApp/static/js/main.7a8df35b.chunk.js",
+    "main.js.map": "/deployedApp/static/js/main.7a8df35b.chunk.js.map",
+    "runtime-main.js": "/deployedApp/static/js/runtime-main.1cff89fb.js",
+    "runtime-main.js.map": "/deployedApp/static/js/runtime-main.1cff89fb.js.map",
+    "static/js/2.96201d7e.chunk.js": "/deployedApp/static/js/2.96201d7e.chunk.js",
+    "static/js/2.96201d7e.chunk.js.map": "/deployedApp/static/js/2.96201d7e.chunk.js.map",
+    "index.html": "/deployedApp/index.html",
+    "precache-manifest.068dab2da47235fbc662a8348aab9843.js": "/deployedApp/precache-manifest.068dab2da47235fbc662a8348aab9843.js",
+    "service-worker.js": "/deployedApp/service-worker.js",
+    "static/css/main.4de80cbb.chunk.css.map": "/deployedApp/static/css/main.4de80cbb.chunk.css.map",
+    "static/js/2.96201d7e.chunk.js.LICENSE.txt": "/deployedApp/static/js/2.96201d7e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ddc39f31.js",
+    "static/js/runtime-main.1cff89fb.js",
     "static/js/2.96201d7e.chunk.js",
     "static/css/main.4de80cbb.chunk.css",
     "static/js/main.7a8df35b.chunk.js"
