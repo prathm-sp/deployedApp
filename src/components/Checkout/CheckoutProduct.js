@@ -1,14 +1,14 @@
 import React from 'react'
 import './Cart.css'
 
-export default function CheckoutProduct({ id, title, rating, price, image }) {
+export default function CheckoutProduct({ id, title, rating, price, image1 }) {
     function removeFromBasket(){
         
     }
  
     return (
         <div id="fullProduct">
-            <img src={image} id="product-Image"/>
+            <img src={image1} id="product-Image"/>
             <div className="details">
                 <p className="title">{title}</p>
                 <p>

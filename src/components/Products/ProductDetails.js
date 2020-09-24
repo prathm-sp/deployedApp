@@ -6,13 +6,17 @@ export default function Details() {
     const [{ productDetails }] = useStateValue();
 
     return (
-        <div>
+        <div id="productPage">
             <img className="cart-img" src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg" />
             {productDetails.map(item => (
                 <GetProduct
                     item={item.id}
                     title={item.title}
-                    image={item.image}
+                    image1={item.image1}
+                    image2={item.image2}
+                    image3={item.image3}
+                    image4={item.image4}
+                    image5={item.image5}
                     price={item.price}
                     rating={item.rating}
                     point1={item.point1}

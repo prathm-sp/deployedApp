@@ -3,7 +3,7 @@ import './CSS/Product.css'
 import { useStateValue } from '../StateProvider'
 import { Link } from 'react-router-dom';
 
-function Product({ id, title, price, rating, image, point1, point2, point3, point4, point5 }) {
+function Product({ id, title, price, rating, image1, image2, image3, image4, image5, point1, point2, point3, point4, point5 }) {
 	{/*in class using props to pass the data in function we use curly brace*/ }
 
 	const [{ basket }, dispatch] = useStateValue();
@@ -16,7 +16,7 @@ function Product({ id, title, price, rating, image, point1, point2, point3, poin
 				title: title,
 				price: price,
 				rating: rating,
-				image: image
+				image1: image1
 			}
 		})
 	};
@@ -28,7 +28,11 @@ function Product({ id, title, price, rating, image, point1, point2, point3, poin
 				title: title,
 				price: price,
 				rating: rating,
-				image: image,
+				image1: image1,
+				image2: image2,
+				image3: image3,
+				image4: image4,
+				image5: image5,
 				point1: point1,
 				point2: point2,
 				point3: point3,
@@ -57,7 +61,7 @@ function Product({ id, title, price, rating, image, point1, point2, point3, poin
 					</div>
 				</div>
 			</Link>
-			<img src={image} alt="" /><br />
+			<img src={image1} alt="" /><br />
 			<button onClick={addToBasket}>Add to Basket</button>
 		</div>
 	);

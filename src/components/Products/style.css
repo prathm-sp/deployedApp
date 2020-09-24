@@ -1,9 +1,51 @@
-#idImage{
+#productPage{
+    height: 700px;
+}
+#mainimg{
     display: inline-block;
     width: 450px;
+    position: relative;
+    left: 150px;
+    height: 490px;
+}
+
+#sideimg > img{
+    width: 100px;
+    height: 100px;
+    border:1px solid;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+#i1{
+    position: relative;
+    bottom: 500px;
+    right: -21px;
+}
+#i2{
+    position: relative;
+    bottom: 382px;
+    left: -81px;
+}
+#i3{
+    position: relative;
+    bottom: 262px;
+    right: 183px;
+}
+#i4{
+    position: relative;
+    bottom: 142px;
+    right: 285px;
+}
+#i5{
+    position: relative;
+    bottom: 25px;
+    right: 386px;
 }
 #imageDiv{
     display: inline-block;
+    margin-left: 170px;
 }
 #idRatings{
     font-size: 20px;
@@ -17,7 +59,9 @@
     font-size: 25px;
 }
 
-
+img{
+    width: 50px;
+}
 #idPrice{
     font-size: 20px;
     position: relative;
@@ -29,9 +73,23 @@
     color:brown;
 }
 
+#detailbtn{
+    background-color: darkorange;
+	color: solid black;
+    padding: 5px;
+    position: relative;
+    left: 42px;
+    top: 18px;
+    height: 43px;
+    width: 144px;
+    cursor: pointer;
+}
+
 #idDetails{
     display: inline-block;
-    position: absolute;
+    position: relative;
+    bottom: 346px;
     font-size: 30px;
     font-weight: 500;
+    left: 100px;
 }

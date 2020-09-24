@@ -21,7 +21,7 @@ export default function Cart() {
                         <CheckoutProduct 
                         item={item.id}
                         title={item.title}
-                        image={item.image}
+                        image1={item.image1}
                         price={item.price}
                         rating={item.rating}
                         />
