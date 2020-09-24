@@ -2,13 +2,13 @@ import React from 'react'
 import './Cart.css'
 
 export default function CheckoutProduct({ id, title, rating, price, image1 }) {
-    function removeFromBasket(){
-        
+    function removeFromBasket() {
+
     }
- 
+
     return (
         <div id="fullProduct">
-            <img src={image1} id="product-Image"/>
+            <img src={image1} id="product-Image" />
             <div className="details">
                 <p className="title">{title}</p>
                 <p>
@@ -24,7 +24,10 @@ export default function CheckoutProduct({ id, title, rating, price, image1 }) {
                             ))
                     }
                 </div>
-                <button onClick={removeFromBasket}>Remove from basket</button>
+                <div className="flexButton">
+                    <button onClick={removeFromBasket}>Remove from basket</button>
+                    <button id="buy">Buy now</button>
+                </div>
             </div>
         </div>
     )
