@@ -4,14 +4,14 @@
 
 At the end of this milestone you will learn
 
-### Backend
+#### Backend
 
 - How to retain the session information as HTTP is stateless
 - How to authorize third party applications like Google, facebook, github etc.
 - Understanding the usage and functions of Cache memory
 - How do you run a script in background in the browser using Service workers
 
-### Frontend
+#### Frontend
 
 - Creating Single page applications using React
 - Handling DOM using React
