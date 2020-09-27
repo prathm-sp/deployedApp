@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "http://prathm-sp/github.io/prathm-sp.github.io",
+  "homepage": "https://prathm-sp.github.io/deployedApp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,9 +19,9 @@
     "react-scrollbar": "^0.5.6"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -20,7 +20,7 @@ export default function CheckoutProduct({ id, title, rating, price, image1, imag
     };
 
     return (
-        <div>
+        <div id='container'>
             <div id='imageDiv'>
                 <img src={imageSrc} id="mainimg" onClick={() => { setimageSrc(image1) }} />
                 <div id="sideimg">
